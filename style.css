@@ -1,0 +1,96 @@
+.card {
+  background: #4568dc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #b06ab3,
+    #4568dc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #b06ab3,
+    #4568dc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+  border: 2px solid black;
+  height: 150px;
+  width: 100px;
+}
+
+section .container {
+  background: #e8cbc0; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #636fa4,
+    #e8cbc0
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #636fa4,
+    #e8cbc0
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 5px;
+  height: 400px;
+}
+
+main section:nth-of-type(1) .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 1rem;
+}
+
+main section:nth-of-type(1) .container .box:nth-child(1) {
+  border: 2px solid pink;
+  flex-shrink: 2;
+  flex-grow: 3;
+  flex-basis: 3;
+}
+main section:nth-of-type(1) .container .box:nth-child(2) {
+  border: 2px solid pink;
+  flex-shrink: 1;
+  flex-grow: 1;
+  flex-basis: 3;
+}
+main section:nth-of-type(1) .container .box:nth-child(3) {
+  border: 2px solid pink;
+  flex-shrink: 4;
+  flex-grow: 3;
+  flex-basis: 2;
+}
+main section:nth-of-type(1) .container .box:nth-child(4) {
+  border: 2px solid pink;
+  flex-shrink: 1;
+  flex-grow: 1;
+  flex-basis: 2;
+}
+
+main section:nth-of-type(2) .container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-size: 1rem;
+}
+
+main section:nth-of-type(2) .container .playing-card:nth-child(1) img {
+  width: 100px;
+  height: 150px;
+}
+main section:nth-of-type(2) .container .playing-card:nth-child(2) img {
+  width: 100px;
+  height: 150px;
+}
+main section:nth-of-type(2) .container .playing-card:nth-child(3) img {
+  width: 100px;
+  height: 150px;
+}
+main section:nth-of-type(2) .container .playing-card:nth-child(4) img {
+  width: 100px;
+  height: 150px;
+}
